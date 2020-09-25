@@ -1,5 +1,9 @@
 from flask import Flask
 from .config import DevConfig
+from flask_sqlalchemy import SQLAlchemy
+
+bootstrap = Bootstrap()
+db = SQLAlchemy()
 
 # Initializing application
 app = Flask(__name__,instance_relative_config = True)

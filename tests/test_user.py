@@ -14,4 +14,4 @@ class UserTest(unittest.TestCase):
             self.new_user.password
 
     def test_save(self):
-        self.assertTrue(self.new_user.check_password('bikinibottom'))
+        self.assertTrue(self.new_user.check_password('mbogigenje'))
