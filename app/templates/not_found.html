@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+<!-- gif -->
+{% block title %} PITCH | Error {% endblock %}
+
+<!-- style -->
+{% block head%} {{ super() }}
+
+{% endblock %}
+
+<!-- text -->
+{% block content %}
+<h3 class="text-center alert-warning"> We can't seem to find what you are looking for</h3>
+<p class="text-center text-danger"> Check the url and try again</p>
+{% endblock %}
