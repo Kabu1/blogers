@@ -3,14 +3,14 @@
 <!-- content -->
 {% block content %}
 
-<div class="container-fluid">
+<div class="container bg-secondary">
     <div class="row">
         <div class="col-md-2"></div>
         <div class="col-md-8">
             <!-- quote -->
-            <h3 class="text-center">QUOTE OF DAY</h3>
+            <h3 class="text-center text-white">QUOTE OF DAY</h3>
             {% for thing in quote%}
-            <p class="box text-center pr-3 pl-3">{{thing.text}} ~ {{thing.author}} </p>
+            <p class="box text-center pr-3 pl-3 text-white">{{thing.text}} ~ {{thing.author}} </p>
             {% endfor %}
         </div>
         <div class="col-md-2"></div>
@@ -37,7 +37,7 @@
                             <ul class="list-inline d-flex justify-content-between">
                                 <li class="list-inline-item">
                                     <span> 
-                                        <button type="button" class="btn btn-primary"><a href="/comments/{{item.id}}" class="text-dark">Comments</a></button>
+                                        <button type="button" class="btn btn-primary"><a href="/comments/{{item.id}}" class="text-white">Comments</a></button>
                                     </span>
                                 </li>
                                 <li class="list-inline-item">

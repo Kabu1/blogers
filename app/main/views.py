@@ -34,7 +34,6 @@ def pitch_form():
 
         data = User.query.all()
         for user in data:
-            mail_message('New post up!', 'email/new_post', user.email, user=user)
             return redirect(url_for('main.home'))
     return render_template('new_pitch.html', pitch_form=pitch_form, )
 
