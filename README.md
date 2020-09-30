@@ -1,8 +1,7 @@
 # Author 
 Benson
 # Description 
- This is a flask application about blogging it helps users post their blogs and view daily quotes
-
+An app where you can create and share your opinions and other users can read and comment on them and displays random quotes to inspire users. 
  ### Version
 v1.0
 
