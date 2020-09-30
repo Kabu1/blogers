@@ -31,7 +31,7 @@ def register():
         db.session.commit()
         mail_message('Welcome to Blog', 'email/welcome_user', user.email, user=user)
         return redirect(url_for('auth.login'))
-        title = "Create account"
+        title = "Create Account"
     return render_template('auth/signup.html', signup_form=form)
 
 
